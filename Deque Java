@@ -1,9 +1,11 @@
-    import java.util.*;
+
+import java.util.*;
     public class test {
         public static void main(String[] args) {
             Scanner in = new Scanner(System.in);
             Deque deque = new ArrayDeque<>();
             HashSet<Integer>set=new HashSet<>(); 
+//LinkedHashSet<Integer>set=new LinkedHashSet<>();
             int n = in.nextInt();
             int m = in.nextInt();
             int max= Integer.MIN_VALUE;
